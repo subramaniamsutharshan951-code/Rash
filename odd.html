@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+    <p>
+    document.getElementById("result").innerHTML = result;
+    }
+
+    </p>
+    
+
+<head>
+    <script>
+        function multiply(a, b) {
+            if (b === undefined) {
+                alert("The value of b is undefined");
+                b = 5;
+            }
+            var result = a * b;
+        }
+    </script>
+</head>
+
+<body>
+    <button onclick="multiply(4)">Click Me!</button>
+    <p id="result"></p>
+</body>
+   
+</html>
